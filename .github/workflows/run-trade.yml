@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Run trade script
-        run: node index_1.js
+        run: node index_1.mjs
         env:
           DELTA_API_KEY: ${{ secrets.DELTA_API_KEY }}
           DELTA_API_SECRET: ${{ secrets.DELTA_API_SECRET }}
